@@ -1,0 +1,83 @@
+@mixin flexingBox {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+
+@mixin xl {
+    @media (max-width: #{$screen__xl__min}) {
+        @content;
+    }
+}
+@mixin up__xl {
+   @media (min-width: #{$screen__sm__min}) {
+       @content;
+   }
+}
+
+// -------------------------------------------------
+@mixin lg {
+    @media (max-width: #{$screen__lg__min}) {
+        @content;
+    }
+}
+
+@mixin up__lg {
+    @media (min-width: #{$screen__lg__min}) {
+        @content;
+    }
+}
+
+// -------------------------------------------------
+
+@mixin md {
+   @media (max-width: #{$screen__md__min}) {
+       @content;
+   }
+}
+@mixin up__md {
+    @media (min-width: #{$screen__md__min}) {
+        @content;
+    }
+}
+
+// -------------------------------------------------
+
+
+@mixin sm {
+    @media (max-width: #{$screen__sm__min}) {
+        @content;
+    }
+}
+
+@mixin up__sm {
+    @media (min-width: #{$screen__sm__min}) {
+        @content;
+    }
+}
+
+// -------------------------------------------------
+
+
+@mixin rwd($screen) {
+   @media (max-width: $screen+'px') {
+       @content;
+   }
+}
+
+@mixin up__rwd($screen) {
+    @media (min-width: $screen+'px') {
+        @content;
+    }
+}
+// -------------------------------------------------
+
+@mixin rhd($screen) {
+    @media (max-height: $screen+'px') {
+        @content;
+    }
+}
+
+// -------------------------------------------------
+
+

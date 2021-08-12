@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/main.css') }}">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <header class="nav">
+        <nav>
+            <div class="logo">
+                <h1><a href="#" id="reload__top">Server Tooling</a></h1>
+            </div>
+            
+            <div class="cart__header__desktop">
+                <h1>Get Status from LANs</h1>
+            </div>
+        </nav>
+    </header>
+
+
+    <section class="fill__info">
+
+        <div class="fill__info">
+
+            <div class="inputs">
+                <div class="input">
+                    <span>IP  </span> 
+                    <input id="ip" type="text">
+                </div>
+                <div class="input">
+                    <span>Machine Name </span> 
+                    <input id="machine_name" type="text">
+                </div>
+                <div class="input">
+                    <span>Password</span> 
+                    <input id="password_" type="password">
+                </div>
+                
+            </div>
+
+        </div>
+
+
+
+
+
+        <div class=" fill__info fill__info__1">
+
+            <div class="inputs buttons">
+                <button class="run_cmd">Run Commands</button>   
+                <button class="get_res">Get Status</button>             
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <script src="{{ url_for('static',filename='js/app.js') }}"></script>
+</body>
+</html>

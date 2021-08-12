@@ -1,0 +1,5 @@
+python3 /home/spartan/Desktop/destination2.py
+{"cpuCountLogical": 8, "virtualMemoryTotal": 8249462784, "virtualMemoryAvailable": 5207539712, "virtualMemoryPercent": 36.9, "virtualMemoryUsed": 2280034304, "virtualMemoryFree": 4340658176}
+{"diskUsageTotal": 20232093696, "diskUsageUsed": 12856561664, "diskUsageFree": 6324178944, "diskUsagePercent": 67.0}
+{"batteryPercent": 39.140572951365755, "isPowerPluged": false}
+{"username": "spartan"}
