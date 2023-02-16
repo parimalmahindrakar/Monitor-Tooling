@@ -6,4 +6,4 @@ MarkupSafe==2.0.1
 pexpect==4.8.0
 ptyprocess==0.7.0
 PyMySQL==1.0.2
-Werkzeug==2.0.1
+Werkzeug==2.2.3
